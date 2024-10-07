@@ -1,0 +1,173 @@
+@media (max-width:600px){
+	body .fusion-header-has-flyout-menu .fusion-header {
+		padding: 0 10px;
+	}
+		.fusion-header-has-flyout-menu .fusion-header-has-flyout-menu-content{position: relative;}
+		.fusion-flyout-mobile-menu-icons{position: absolute !important;width: 100%;}
+		.fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-flyout-menu-toggle{margin-left:15px;}
+		.fusion-flyout-mobile-menu-icons .fusion-flyout-cart-wrapper{
+		position: absolute;
+		right:-10px;
+		padding: 0 !important;
+	}
+	#side-header .fusion-logo, .fusion-header .fusion-logo {
+		margin: 15px auto !important;
+		width: 60%;
+		text-align: center;
+		position: relative;
+		z-index: 9999999;
+	}
+	body .fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-toggle-icon-line {width: 25px;}
+	.fusion-mobile-nav-item a span{font-weight:bold;}
+	.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li.social {
+		width: 33%;
+        display: inline-block;
+    margin-top: 80px;
+	}
+	.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li#mobile-menu-item-8883 {
+    text-align: right;
+	}	
+	.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li#mobile-menu-item-8883 .menu-text {
+    width: 24px;
+    height: 24px;
+    background: #4861AF;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+	display: block;
+    line-height: 25px;
+}
+.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li#mobile-menu-item-8884 {
+    text-align: center;
+	}	
+	.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li#mobile-menu-item-8884 .menu-text {
+    width: 24px;
+    height: 24px;
+    background: #d03f82;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+	display: block;
+    line-height: 25px;
+}
+.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li#mobile-menu-item-8948 {
+    text-align: left;
+	position: relative;
+	}
+.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li#mobile-menu-item-8948 .menu-text{
+    width: 24px;
+    height: 24px;
+    background: #c4302b;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+	display: block;
+    line-height: 25px;
+}
+.fusion-header-has-flyout-menu .fusion-flyout-menu>ul.fusion-menu>li#mobile-menu-item-8948::after {
+    content: "Follow Us";
+    position: absolute;
+    background: url(img/arrow.png) no-repeat;
+    right: 65px;
+    top: -45px;
+    width: 60px;
+    padding-left: 44px;
+    height: 60px;
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #000000;
+}
+	.fusion-header .fusion-icon-shopping-cart{background:url(img/cart.png) no-repeat;height: 30px;width: 30px;display: block;}
+	.fusion-header .fusion-icon-shopping-cart:before{color:transparent !important}
+	body .fusion-header-has-flyout-menu .fusion-flyout-menu .fusion-menu, body .fusion-header-has-flyout-menu .fusion-flyout-menu .fusion-mobile-menu {margin-top: 0;}
+	body .fusion-page-title-bar-right .fusion-page-title-secondary {
+    text-align: left;
+}
+	#main {padding-left: 15px !important;padding-right: 15px !important;}
+	#home2boxies{margin:25px 0px !important;padding:0  !important; }
+	#home2boxies .fusion-column-wrapper{background-size: contain !important; }
+	#home2boxies .top-box-content {float: right;margin: 16px 16px 16px 0;}
+	#main .top-box-content h2 {text-align: right;}
+	.vechungtoi .fusion-column-wrapper{padding-top:0 !Important;}
+	#main .top-box-content h3 {text-align: right;}
+	#main .top-box-content h5 {text-align: right;}
+	#main .top-box-content a.xemngay {padding: 4px 8px;margin: 0 30px 0 0;float: right;}
+	#km{margin: 0;border-radius: 8px;}
+	#km h2.title-heading-center{font-size:16px !Important;}
+	body #main .products li.product {width: 50% !important;margin: 0 0 20px;}
+	body #main ul.products li.product a.product-images {height: auto;}
+	body #main ul.products li.product a.product-images img {height: auto;}
+	body #main li.product h3.product-title a {font-size: 10px;}
+	body ul.products li.product .price ins .amount{font-size: 12px;}
+	body .fusion-blog-layout-grid .fusion-post-grid {width: 50% !important;}
+	body #blog .flexslider .slides img {height: 150px;}
+	.fusion-footer{margin: 15px;border-radius: 8px;overflow: hidden;}
+	.fusion-body .fusion-footer .fusion-copyright-notice{text-align:left;}
+	.fusion-body .fusion-footer .fusion-copyright-notice span{display:block;}
+	#gioithieu > .fusion-builder-row{
+    display: flex;
+    flex-direction: column;
+}
+	.pagesideba{order:2;}
+	.pagecontent{order:1}
+	body #ptop{padding:15px;}
+	body.single-product #main .product .onsale {left: 0;}
+	.show_details_button.fusion-has-quick-view {
+    display: block!important;
+    float: left !important;
+}
+body #main .products li .product-buttons a.devvn_buy_now{padding:5px;}
+	body #pbottom{padding:15px;}
+	#tab-additional_information .shop_attributes tr td {
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	body #kich_thuoc {flex-direction: column;}
+	body  #kich_thuoc .item {padding-top: 0px;padding-left: 135px;margin-bottom: 10px;}
+	.pvalue p{margin-top:5px;}
+	#commentsumary{flex-direction: column;}
+	#commentsumary .staraver {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+body #review_detail {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+	border-top:1px solid #ECF0FE;
+    padding:20px 0;
+    margin: 0;
+    line-height: 30px;
+}
+body #review_detail  span.line{width:140px;}
+body #review_detail .number {
+    float: right;
+}
+ body #review_button {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+}
+body #reviews li .comment-text{
+    width: 100%!important;
+    margin:0 0 30px!important;
+    padding: 0%!important;
+}
+body #reviews li .comment-text p{margin-top:0;}
+body #content{margin-bottom:0;}
+body .related.products, body .upsells.products {
+    margin-top: 0px;
+}
+	#menu-footer-menu {flex-wrap: wrap;}
+	#menu-footer-menu li {
+		width: 50%;margin: 0 0 20px;
+		padding: 0;
+	}
+	#bottom_box h6.title-heading-left{color: #1E2022;font-weight: 600;text-transform: uppercase;}
+	.overlay{width: 100% !Important;}
+}
