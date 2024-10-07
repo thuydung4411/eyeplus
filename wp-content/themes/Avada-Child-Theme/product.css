@@ -1,0 +1,99 @@
+#pbottom #relatedproducts, #pbottom #upselproducts{max-width: 755px;margin-top:20px;}
+#pbottom #relatedproducts .onsale, #pbottom #upselproducts .onsale{right:0;}
+.avada-single-product-gallery-wrapper {position: relative;}
+body #main h2.product-title {
+    display:none;
+}
+body #main h3.product-title {
+    display:block;
+}
+.avada-single-product-gallery-wrapper .flex-direction-nav a{
+    z-index: 9999999;
+}
+body.single-product #main .woocommerce-product-gallery figure {width: 100%;}
+body.single-product #main .woocommerce-product-gallery__wrapper img{width:100%;}
+body.single-product #main{margin:0 0 20px;padding: 0 !important;}
+body.single-product #main > .fusion-row{max-width:100%;}
+#ptop{background: #ECF0FE;padding-top:50px;padding-bottom: 50px;display: inline-block;width: 100%;}
+#ptopcontent, #pbottom{max-width:1200px;margin:0 auto;display:block;}
+body.single-product #main .product h1.product_title{font-weight: 600;font-size: 24px;line-height: 36px;text-transform: uppercase;color: #1E2022;order:1;}
+.woocommerce-product-details__short-description p{margin:0 0 15px;}
+.product .entry-summary .summary-container .woocommerce-product-rating{order:2;margin: 0;}
+.product .entry-summary .summary-container .woocommerce-product-details__short-description{order:3;}
+.product .entry-summary .summary-container .product_meta{order:4;}
+.product .entry-summary .summary-container .pprice{order:5;margin-bottom:10px;}
+.product .entry-summary .summary-container .pprice p{margin:10px 0 0;}
+body .product .entry-summary .price{margin:0;}
+body .product .entry-summary  .price del .amount{font-size: 24px;font-weight: normal;}
+body .product .entry-summary  .price ins .amount{font-size: 24px;}
+.product .entry-summary .summary-container form.cart{order:6;margin: 10px 0;}
+body .product .summary .cart .quantity {float: left; margin: 0 20px 0 0;}
+body .product_meta {padding-top: 0;}
+.product .entry-summary .summary-container  a.devvn_buy_now_style{order:7;}
+.product .entry-summary .summary-container  #product-widget{order:8;}
+.product .entry-summary .summary-container .avada-availability, #pbottom .social-share{display:none !important;}
+.product .entry-summary .summary-container .product-border{display:none !important;}
+.product .entry-summary .summary-container {display: flex;flex-direction: column;}
+body.single-product #main .product .onsale {right:30px;width:100px;}
+body.single-product #main #upselproducts.products .onsale, body.single-product #main #relatedproducts.products .onsale {right:0px;}
+.sku{font-weight:bold;}
+#commentsumary {display: flex;box-shadow: 0px 0px 20px rgba(72, 114, 250, 0.2);border-radius: 8px;margin: 5px 0px 30px;padding: 20px !important;}
+.staraver{font-weight: 600;font-size: 32px;color: #FF5C00;position:relative;    width: 15%;margin-top: 75px; }
+.staraver i{font-weight: 400;font-size: 20px;color: #FF5C00;position: absolute;top: -4px;margin-left: 5px;}
+#review_detail{width:55%;border-left:2px solid #ECF0FE;border-right:2px solid #ECF0FE;padding-left:30px;padding-right:20px;margin:0 20px 0 0px;line-height: 30px;}
+#review_detail .number{color: #4872FA;font-size: 16px;}
+#review_detail .number .ratingnumber{display: inline-block;}
+span.line{position:relative;width:190px;background: #BDBDBD;border-radius: 4px;height:3px;display:inline-block;top:-3px;margin:0 5px;}
+span.line span{position:absolute;top:0;left:0;height:3px;background: #4872FA;border-radius: 4px;}
+.starnumber{width:11px;font-size: 16px;color: #575757;display: inline-block;}
+.starline i{font-weight: 600;font-size: 12px;color: #575757;}
+#review_button{position:relative;width:30%;}
+#review_button a{background: #4872FA;border-radius: 4px;font-weight: 600;font-size: 14px;text-transform: uppercase;color: #FFFFFF;  padding: 10px 15px;position: absolute;top: 50%;width: 100%;transform: translateY(-50%);text-align: center;}
+body #reviews li .comment-text {padding: 20px 0 0;border: 0;margin-left: 0;}
+body #reviews li .comment-text .woocommerce-review__author{font-weight: 600;font-size: 16px;color: #1E2022;margin-right: 12px;    text-transform: capitalize;}
+body #reviews li .comment-text .woocommerce-review__published-date{font-style: normal;font-weight: normal;font-size: 12px;color: #575757;}
+body #reviews li .comment-text .description{border-left:2px solid #4872FA;padding:0 0 0 13px;font-size: 12px;color: #1E2022;}
+body.single-product #comments a.btn-reviews-now { background-color: #4872FA;padding: 11px 16px;border-radius: 4px;font-weight: 600;font-size: 14px;}
+#review_form_wrapper{display:none;}
+#product-widget ul{margin:0;padding:0;}
+#product-widget li{list-style:none;margin-bottom:25px;    display: flex;}
+#product-widget li span.round{background: #A4B9FD;width:32px;height:32px;border-radius:50%;float: left;margin: 3px 10px 0 0;}
+#product-widget li.freeship span i{background: url('img/bg-icons.png') -46px -146px;width: 16px; height: 16px;margin:8px;display:inline-block;}
+#product-widget li.chinhsach span i{background: url('img/bg-icons.png') -10px -146px;width: 16px; height: 16px;margin:8px;display:inline-block;}
+#product-widget li.tongdai span i{background: url('img/bg-icons.png') -146px -92px;width: 16px; height: 16px;margin:8px;display:inline-block;}
+#product-widget li.huongdanmuahang span{background:#fff;}
+#product-widget li.huongdanmuahang span i{background: url('img/bg-icons.png') -146px -56px;width: 16px; height: 16px;margin:8px;display:inline-block;}
+#product-widget li h3{font-weight: 600;font-size: 14px;text-transform: uppercase;color: #1E2022;margin: 0;}
+#product-widget li h3 span{font-weight: normal;font-size: 12px;color: #575757;margin: 0; display: block;text-transform: none;}
+#product-widget li.huongdanmuahang a{border-bottom: 1px solid;    margin: 7px 0 0;height: 22px;}
+#main #relatedproducts h2,#main h2.ptitle, #upselproducts h2{font-weight: 600;font-size: 24px !important;line-height: 36px;text-transform: uppercase;color: #1E2022;margin-bottom;20px;}
+#main #upselproducts .title-sep-container{display:none;}
+#main #relatedproducts .title-sep-container{display:none;}
+#pbottom .tabs{display:none !Important;}
+#pbottom  .woocommerce-tabs {overflow:unset;display: flex;flex-direction: row;flex-wrap:wrap;max-width: 755px;padding-top: 40px;}
+#tab-additional_information, #kich_thuoc{order:1;box-shadow: 0px 0px 20px rgba(72, 114, 250, 0.2);border-radius: 8px;margin: 5px 0px 30px;padding: 20px !important;}
+#tab-description{order:2;}
+#tab-reviews{order:3;}
+#pbottom .woocommerce-Tabs-panel{display:block !Important;border: 0;padding: 0;}
+#tab-additional_information .shop_attributes tr td {text-align: left;width: auto;padding: 5px 0;}
+
+#kich_thuoc{display:flex;}
+#kich_thuoc .item{flex: 1 0 0;padding-top:50px;}
+.chieu_rong {background: url('img/rong.png') no-repeat;}
+.mat_kinh_rong {background: url('img/mat-kinh-rong.png')  no-repeat;}
+.cau_kinh {background: url('img/cau-kinh.png') no-repeat;}
+.mat_kinh_cao {background: url('img/mat-kinh-cao.png') no-repeat;}
+.chieu_dai_gong {background: url('img/gong-kinh.png') no-repeat;}
+.plable{font-weight: 600;font-size: 16px;line-height: 24px;color: #000000;}
+.pvalue{font-size: 14px;line-height: 24px;color: #575757;margin:0;}
+.fixed .pprice p.label{display:none;}
+.fixed .pprice{position:fixed;top:120px;z-index:200;}
+.fixed .devvn_buy_now{position:fixed;top:180px;z-index:200;}
+.fixed #product-widget{position:fixed;top:250px;z-index:200;}
+.avada-product-gallery .avada-product-gallery-lightbox-trigger {display:none;}
+.overlay{position: absolute;z-index: 999;width:100%;height: 100%;max-width: 755px;background: transparent;right: 0;top:0;}
+.hasthumb .overlay{width: calc(100% - 90px);height: calc(100% - 120px);}
+
+@media (min-width:1024px){
+
+}
